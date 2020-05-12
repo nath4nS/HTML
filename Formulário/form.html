@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário!!</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="col-8 offset-2">
+			<form>		
+				<h2 align="center">Formulário</h2>
+				<br />
+
+				<div class="form-group">
+					<label>Nome:</label>
+					<input type="text" name="name">
+				</div>		
+
+				<div class="form-group">
+					<label>CPF:</label>
+					<input type="text" name="cpf">
+				</div>		
+
+				<div class="form-group">
+					<label>Data de Nascimento:</label>
+					<input type="text" name="nascimento">
+				</div>		
+
+				<div class="form-group">
+					<label>Sexo:</label>
+					<select name="sexo" id="sexo">
+						<option value="Masculino">Masculino</option>
+						<option value="Feminino">Feminino</option>
+					</select>
+				</div>		
+
+				<div class="form-group">
+					<label>Celular:</label>
+					<input type="text" name="celular">
+				</div>		
+
+				<div class="form-group">
+					<label for="cep">CEP:</label>
+					<input type="text" name="cep" id="cep">
+				</div>
+						
+				<div class="form-group">
+					<label for="logradouro">Logradouro:</label>
+					<input type="text" name="logradouro" id="logradouro">
+				</div>
+					
+				<div class="form-group">
+					<label for="numero">Número:</label>
+					<input type="text" name="numero" id="numero">
+				</div>
+						
+				<div class="form-group">
+					<label for="complemento">Complemento:</label>
+					<input type="text" name="complemento" id="complemento">
+				</div>
+
+				<div class="form-group">
+					<label for="bairro">Bairro:</label>
+					<input type="text" name="bairro" id="bairro">
+				</div>
+				
+				<div class="form-group">
+					<label for="cidade">Cidade:</label>
+					<input type="text" name="cidade" id="cidade">
+				</div>
+						
+				<div class="form-group">
+					<label for="estado">Estado:</label>
+					<select name="estado" id="estado">
+					    <option value="">Selecione</option>
+					    <option value="AC">Acre</option>
+					    <option value="AL">Alagoas</option>
+					    <option value="AP">Amapá</option>
+					    <option value="AM">Amazonas</option>
+					    <option value="BA">Bahia</option>
+					    <option value="CE">Ceará</option>
+					    <option value="DF">Distrito Federal</option>
+					    <option value="ES">Espirito Santo</option>
+					    <option value="GO">Goiás</option>
+					    <option value="MA">Maranhão</option>
+					    <option value="MS">Mato Grosso do Sul</option>
+					    <option value="MT">Mato Grosso</option>
+					    <option value="MG">Minas Gerais</option>
+					    <option value="PA">Pará</option>
+					    <option value="PB">Paraíba</option>
+					    <option value="PR">Paraná</option>
+					    <option value="PE">Pernambuco</option>
+					    <option value="PI">Piauí</option>
+					    <option value="RJ">Rio de Janeiro</option>
+					    <option value="RN">Rio Grande do Norte</option>
+					    <option value="RS">Rio Grande do Sul</option>
+					    <option value="RO">Rondônia</option>
+					    <option value="RR">Roraima</option>
+					    <option value="SC">Santa Catarina</option>
+					    <option value="SP">São Paulo</option>
+					    <option value="SE">Sergipe</option>
+					    <option value="TO">Tocantins</option>
+						</select>
+				</div>
+
+				<div class="form-group">
+					<button type="submit">Enviar</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+<script src="js/jquery-3.4.1.min.js" ></script>
+<script src="js/jquery.maskedinput.min.js" ></script>
+<script type="text/javascript">
+	
+	$('input[name="cpf"]').mask('999.999.999-99');
+	$('input[name="celular"]').mask('99999-9999');
+	$('input[name="nascimento"]').mask('99/99/9999');
+	$('input[name="cep"]').mask('99999.999');
+	$('input[name="numero"]').mask('9999');
+</script>
+</body>
+</html
