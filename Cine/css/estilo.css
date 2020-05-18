@@ -1,0 +1,197 @@
+html,body,* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS'
+}
+body {
+	background-image: url("../img/art.jpg");
+	background-repeat: no-repeat;
+}
+main {
+	width: 850px;
+	height: 1200px;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-style: italic;
+}
+footer {
+	width: 100%;
+	height: 180px;
+}
+h3 {
+	color: black;
+}
+.logo {
+	margin-right: 10px;
+	float: left;
+}
+.logo img {
+	margin: 8px 15px;
+	width: 100px;
+}
+.menu {
+	width: 100%;
+	height: 120px;
+	background-color: #fff;
+}
+.menu-superior ul li a {
+	float: left;
+	width: 115px;
+	line-height: 120px;
+	text-align: center;
+	color: orange;
+	font-size: 18px;
+	font-style: italic;
+}
+.busca{
+	line-height: 120px;
+}
+#btnBusca{
+ 	border:none;
+	border-radius:0 7px 7px 0;
+ 	width:80px;
+  	font-weight:bold;
+  	background:orange;
+}
+.slide {
+	width: 100%;
+	height: 500px;
+	background-color: #bbb;
+}
+.slide img {
+	width: 850px;
+	height: 500px;
+}
+.conteudo {
+	width: 100%;
+	height: 400px;
+}
+.titulo-conteudo { 
+	width: 100%;
+	height: 30px;
+	background-color: orange;
+	text-align: center;
+	color: black;
+	font-style: italic;
+}
+.descricao{
+	width: 100%;
+	height: 370px;
+	text-align: center;
+	background-color: white;
+	text-align: justify;
+}
+.contato {
+	width: 550px;
+	height: 180px;
+	background-color: #ddd;
+	float: left;
+	text-align: center;
+	font-style: italic;
+}
+.contato textarea {
+	width: 400px;
+	margin-top: 9px;
+	border-radius: 10px;
+}
+#btnEnviar{
+ 	border:none;
+	border-radius:7px 7px;
+ 	width:80px;
+  	font-weight:bold;
+  	background:orange;
+}
+.sociais {
+	width: 300px;
+	height: 70px;
+	background-color: #eee;
+	float: left;
+	text-align: center;
+}
+.sociais img {
+	padding: 15px;
+	width: 35px;
+}
+.sobre {
+	width: 300px;
+	height: 110px;
+	background-color: orange;
+	float: left;
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+/*Bloco do CSS "Quem somos"*/
+.conteudo2 {
+	width: 100%;
+	height: 900px;
+	background-color: blue;
+}
+.historia{
+	padding-top: 10px;
+	width: 100%;
+	height: 870px;
+	background-color: white;
+	text-align: justify;
+}
+/*Bloco do CSS "História"*/
+.textHist {
+	width: 100%;
+	height: 900px;
+}
+.imgHist {
+	width: 100%;
+	height: 400px;
+}
+.imgHist img{
+	width: 850px;
+	height: 400px;
+}
+.txtHist {
+	padding-top: 10px;
+	width: 100%;
+	height: 470px;
+	text-align: justify;
+	background-color: white;
+}
+/*Bloco do CSS "Localização"*/
+.locais {
+	width: 100%;
+	height: 900px;
+}
+.txtLocais{
+	width: 100%;
+	height: 590px;
+	padding-top: 10px;
+	background-color: white;
+}
+.imgLocal{
+	width: 100%;
+	height: 270px;
+	background-color: orange;
+}
+.imgLocal img{
+	padding: 10px;
+	width: 830px;
+	height: 250px;
+}
+/*Bloco do CSS "Contato"*/
+.contContato{
+	width: 100%;
+	height: 900px;
+}
+.txtContato {
+	width: 830px;
+	padding: 10px;
+	height: 390px;
+	background-color: white;
+	text-align: justify;
+}
