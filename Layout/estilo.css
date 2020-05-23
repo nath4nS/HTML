@@ -1,0 +1,140 @@
+*,html,body {
+	margin:0;
+	padding: 0;
+	font-family: 'Trebuchet MS';
+}
+body {
+	background-color: #aaa;
+}
+h1, h2, h3, h4, h5, h6, p {
+	color: #818181;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+hr {
+	width: 98%;
+	border: 1px dashed #ccc;
+	margin: 15px auto;
+}
+main {
+	width: 800px;
+	height: 1200px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 7px;
+	box-shadow: #605a5a 0px 0px 16px;
+}
+.topo {
+	width: 800px;
+	height: 80px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.logo {
+	float: left;
+	margin-right: 50px;
+}
+.logo img{
+	margin: 15px 20px;
+	width: 150px;
+}
+.menu-superior {
+	width: 300px;
+	float: left;
+}
+.menu-superior li {
+	float: left; 
+	width: 100px; 
+	text-align: center;
+	line-height: 80px;
+	font-family: 'Trebuchet MS';
+	color: #3696c7;
+}
+.busca {
+	line-height: 80px;
+}
+.slide {
+	width: 800px;
+	height: 300px;
+	background-color: #ddd;
+}
+.servicos div {
+ float: left;
+ border: 1px solid #ddd;
+ width: 264px;
+ height: 200px;
+ background-color: #eee;
+}
+
+.projetos {
+	width: 100%;
+	height: 330px;
+	float: right; 
+}
+.titulo-projetos, article h3 {
+	height: 40px;
+	text-align: center;
+}
+.projetos article {
+	width: 188px;
+	height: 270px;
+	float: left;
+	padding: 5px;
+}
+img {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	clear: both;
+}
+
+.contato {
+	width: 398px;
+	height: 200px;
+	text-align: center;
+	float: left;
+}
+
+.contato textarea {
+	border-radius: 5px;
+	width: 70%;
+
+}
+.redes {
+}
+.icones {
+	text-align: center;
+}
+.icones img {
+	padding: 15px;
+	width: 32px;
+}
+.itens {
+	width: 360px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	text-align: center;
+}
+.itens article {
+	width: 105px;
+	text-align: center;
+	float: left;
+	margin-right: 5px;
+}
+.itens p {
+	text-align: left;
+}
+#servico1 {
+	cursor: pointer;
+}
