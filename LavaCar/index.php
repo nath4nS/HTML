@@ -16,7 +16,7 @@
 					<li>Quem Somos</li>
 					<li>Serviços</li>
 					<li>Agendamento</li>
-					<li>Contato</a></li>
+					<li>Contato</li>
 				</ul>
 			</nav>
 		</section>
