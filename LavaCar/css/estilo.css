@@ -1,0 +1,43 @@
+html,body,* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 1000px;
+	height: 1200px;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+
+.menu {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+}
+
+.imgLogo img {
+	width: 150px;
+	margin-top: 25px;
+	margin-left: 35px;
+	margin-right: 35px;
+	float: left;
+}
+
+ul {
+	list-style: none;
+}
+
+.menu-superior ul li {
+	color: white;
+	float: left;
+	margin-left: 70px;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.menu-superior ul li:hover {
+	border-radius: 8px;
+	background: gray;
+	transition: background-color 0.4s;
+}
