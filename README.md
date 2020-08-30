@@ -1,2 +1,1 @@
-#Praticando
-HTML e CSS.
+#Treinando HTML e CSS.
