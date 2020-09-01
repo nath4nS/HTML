@@ -59,37 +59,45 @@
 				<h2>Nossos Serviços</h2>
 			</div>
 
-			<article>
-				<figure>
-					<img src="icones/default.png">
-				</figure>
-				<h3>Lavagem Americana</h3>
-				<p>Lavagem da parte externa e da caixa de rodas, limpeza do painel, de vidros e carpete, aspiração interna e pretinho nos pneus</p>
+				<article>
+					<figure>
+						<img src="icones/default.png">
+					</figure>
+					<h3>Lavagem Americana</h3>
+					<p>Lavagem da parte externa e da caixa de rodas, limpeza do painel, de vidros e carpete, aspiração interna e pretinho nos pneus</p>
 
-				<button class="butao">Escolher</button>
-			</article>
+					<button class="butao">Escolher</button>
+				</article>
 
-			<article>
-				<figure>
-					<img src="icones/default.png">
-				</figure>
-				<h3>Higienização</h3>
-				<p>	Higieniza espaços internos do veículo como os bancos, porta-malas, teto, cintos de segurança</p>
+				<article>
+					<figure>
+						<img src="icones/default.png">
+					</figure>
+					<h3>Higienização</h3>
+					<p>	Higieniza espaços internos do veículo como os bancos, porta-malas, teto, cintos de segurança</p>
 
-				<button class="butao">Escolher</button>
-			</article>
+					<button class="butao">Escolher</button>
+				</article>
 
-			<article>
-				<figure>
-					<img src="icones/default.png">
-				</figure>
-				<h3>Polimento</h3>
-				<p>	Repara determinados danos que ocorem à pintura do carro no dia a dia, sua função é proteger a pintura e dar brilho</p>
+				<article>
+					<figure>
+						<img src="icones/default.png">
+					</figure>
+					<h3>Polimento</h3>
+					<p>	Repara determinados danos que ocorem à pintura do carro no dia a dia, sua função é proteger a pintura e dar brilho</p>
 
-				<button class="butao">Escolher</button>
-			</article>
-
+					<button class="butao">Escolher</button>
+				</article>
 			</section>
+
+			<section class="agendar">
+				<h2>Agendamento</h2>
+
+				<p>Agende um horário, para lavar seu carro!</p>
+fdf
+				<button class="butaoAgendar">Agendar Horário</button>
+			</section>
+
 	</main>
 
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
