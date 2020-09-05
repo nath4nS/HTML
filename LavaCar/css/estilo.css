@@ -5,7 +5,7 @@ html,body,* {
 
 main {
 	width: 1000px;
-	height: 1600px;
+	height: 1700px;
 	background-color: #ccc;
 	margin: 0 auto;
 }
@@ -154,4 +154,35 @@ article img {
 .butaoAgendar:hover {
 	background: green;
 	transition: background-color 0.8s;
+}
+
+.contato {
+	width: 100%;
+	height: 300px;
+	float: right;
+	background-color: lightgray;
+}
+
+.contato h2 {
+	text-align: center;
+	margin-left: center;
+	color: black;
+	margin-top: 25px;
+	font-weight: 700;
+}
+
+.contato h6 {
+	text-align: center;
+	color: black;
+	margin-top: 80px;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.contato p {
+	text-align: center;
+	color: black;
+	margin-top: 70px;
+	font-size: 22px;
+	font-weight: 700;
 }

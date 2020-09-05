@@ -94,9 +94,20 @@
 				<h2>Agendamento</h2>
 
 				<p>Agende um horário, para lavar seu carro!</p>
-fdf
+
 				<button class="butaoAgendar">Agendar Horário</button>
 			</section>
+
+			<footer class="contato">
+				<h2>Contato</h2>
+
+				<h6>Entre em contato conosco
+				<br/>
+				Fone: (00)1234-5678</h6>
+
+				<p>&copy;Direitos reservados <?php echo date('Y'); ?> - LavaCar DF <p/>
+		
+			</footer>
 
 	</main>
 
