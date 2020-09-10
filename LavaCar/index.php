@@ -105,7 +105,7 @@
 				<br/>
 				Fone: (00)1234-5678</h6>
 
-				<p>&copy;Direitos reservados <?php echo date('Y'); ?> - LavaCar DF <p/>
+				<p>&copy; Direitos reservados <?php echo date('Y'); ?> - LavaCar <p/>
 		
 			</footer>
 
