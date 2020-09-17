@@ -56,7 +56,7 @@
 
 			<section class="servicos">
 					<div class="titulo-servicos">
-				<h2>Nossos Serviços</h2>
+				<h2>Serviços Oferecidos</h2>
 			</div>
 
 				<article>
