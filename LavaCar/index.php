@@ -26,7 +26,7 @@
 			        <a class="nav-link" href="#">Agendamento</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contato</a>
+			        <a class="nav-link" href="#">Contatos</a>
 			      </li>
 			    </ul>
 			  </div>
