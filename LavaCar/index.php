@@ -17,7 +17,7 @@
 			  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
 			    <ul class="navbar-nav mr-auto">
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">História</a>
+			        <a class="nav-link" href="historia.php">História</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Serviços</a>
