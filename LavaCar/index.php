@@ -23,7 +23,7 @@
 			        <a class="nav-link" href="#">Serviços</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Agendamento</a>
+			        <a class="nav-link" href="agendamento.php">Agendamento</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Contatos</a>
