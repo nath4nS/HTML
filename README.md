@@ -1,1 +1,1 @@
-#Treinando HTML e CSS.
+#Treinando HTML, JS e CSS.
